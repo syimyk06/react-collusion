@@ -1,0 +1,36 @@
+.hero {
+  height: calc(100vh - 80px);
+  background: url("/src/assets/images/hero-img.jpeg") no-repeat center/cover;
+  margin-bottom: 111px;
+}
+
+.text__box {
+  position: absolute;
+  bottom: 13vh;
+  right: 24vh;
+}
+
+.third-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.first-title {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 120px;
+}
+
+.second-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.button__box {
+  display: flex;
+  gap: 10px;
+}

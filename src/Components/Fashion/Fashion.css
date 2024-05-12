@@ -1,0 +1,18 @@
+.section__fashion {
+  text-align: center;
+  margin-bottom: 111px;
+}
+
+.fashion__title {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.fashion__subtitle {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  margin-bottom: 65px;
+}

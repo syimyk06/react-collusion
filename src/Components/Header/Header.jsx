@@ -1,6 +1,7 @@
-import searcIcon from '../assets/icons/Search.svg'
-import favoriteIcon from '../assets/icons/Heart.svg'
-import cartIcon from '../assets/icons/Cart.svg'
+import searcIcon from '../../assets/icons/Search.svg'
+import favoriteIcon from '../../assets/icons/Heart.svg'
+import cartIcon from '../../assets/icons/Cart.svg'
+import "./Header.css"
 
 export const Header = () => {
   return (
