@@ -2,6 +2,7 @@ import searcIcon from '../../assets/icons/Search.svg'
 import favoriteIcon from '../../assets/icons/Heart.svg'
 import cartIcon from '../../assets/icons/Cart.svg'
 import "./Header.css"
+import { Link } from 'react-router-dom';
 
 export const Header = () => {
   return (
@@ -11,24 +12,24 @@ export const Header = () => {
           YOUR LOGO
         </a>
         <nav className="header__menu">
-          <a href="#" className="header__link">
+          <Link to="/" className="header__link">
             HOME
-          </a>
-          <a href="#" className="header__link">
+          </Link>
+          <Link to="/shop" className="header__link">
             SHOP
-          </a>
-          <a href="#" className="header__link">
+          </Link>
+          <Link to="/lookbook" className="header__link">
             LOOKBOOK
-          </a>
-          <a href="#" className="header__link">
+          </Link>
+          <Link to="/features" className="header__link">
             FEATURES
-          </a>
-          <a href="#" className="header__link">
+          </Link>
+          <Link to="/pages" className="header__link">
             PAGES
-          </a>
-          <a href="#" className="header__link">
+          </Link>
+          <Link to="/blog" className="header__link">
             BLOG
-          </a>
+          </Link>
         </nav>
         <div className="header__actions">
           <a href="#" className="icon__link">
