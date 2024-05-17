@@ -42,19 +42,3 @@ export const App = () => {
     </>
   );
 };
-
-{
-  /* <Fashion
-          title={"WOMEN'S FASHION"}
-          subTitle={"Shop our new arrivals from established brands"}
-        >
-          <CardList items={FASHION_WOMENS_INITIAL_DATA} />
-        </Fashion>
-
-        <Fashion
-          title={"MEN'S FASHION"}
-          subTitle={"Shop our new arrivals from established brands"}
-        >
-          <CardList items={FASHION_MENS_INITIAL_DATA} />
-        </Fashion> */
-}
