@@ -8,6 +8,7 @@ import { Header } from "./Components/Header/Header.jsx";
 import { CardList } from "./Components/CardList/CardList.jsx";
 import { Hero } from "./Components/Hero/Hero.jsx";
 import { Routes, Route } from "react-router-dom";
+import { LookBook } from "./Components/LookBook/LookBook.jsx";
 
 export const App = () => {
   return (
@@ -34,7 +35,7 @@ export const App = () => {
           }
          />
          <Route path="/shop" element={<h1>Shop page</h1>}/>
-         <Route path="/lookbook" element={<h1>Lookbook page</h1>}/>
+         <Route path="/lookbook" element={<LookBook/>}/>
          <Route path="/features" element={<h1>Features page</h1>}/>
          <Route path="/pages" element={<h1>Pages</h1>}/>
          <Route path="/blog" element={<h1>Blog page</h1>}/>
