@@ -15,7 +15,7 @@ export const App = () => {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={
+        <Route path="/react-collusion" element={
             <>
               <Hero />
               <Fashion
