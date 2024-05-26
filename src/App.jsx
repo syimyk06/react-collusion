@@ -1,8 +1,4 @@
 import "./App.css";
-import {
-  FASHION_WOMENS_INITIAL_DATA,
-  FASHION_MENS_INITIAL_DATA,
-} from "./Data.js";
 import { Fashion } from "./Components/Fashion/Fashion.jsx";
 import { Header } from "./Components/Header/Header.jsx";
 import { CardList } from "./Components/CardList/CardList.jsx";
@@ -22,14 +18,14 @@ export const App = () => {
                 title={"WOMEN'S FASHION"}
                 subTitle={"Shop our new arrivals from established brands"}
               >
-                <CardList items={FASHION_WOMENS_INITIAL_DATA} />
+                <CardList category={"women's clothing"} />
               </Fashion>
 
               <Fashion
                 title={"MEN'S FASHION"}
                 subTitle={"Shop our new arrivals from established brands"}
               >
-                <CardList items={FASHION_MENS_INITIAL_DATA} />
+                <CardList category={"men's clothing"} />
               </Fashion>
             </>
           }
