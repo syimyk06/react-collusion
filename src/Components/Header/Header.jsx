@@ -12,7 +12,7 @@ export const Header = () => {
           YOUR LOGO
         </a>
         <nav className="header__menu">
-          <Link to="/" className="header__link">
+          <Link to="/react-collusion" className="header__link">
             HOME
           </Link>
           <Link to="/shop" className="header__link">
