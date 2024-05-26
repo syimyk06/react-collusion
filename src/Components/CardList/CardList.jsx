@@ -9,7 +9,7 @@ export const CardList = ({ category }) => {
   useEffect(() => {
     const getProducts = async () => {
       try {
-        const resp = await axios(`https://fakestoreapi.com/products/category/${category}`);
+        const resp = await axios(`https://fakestoreapi.com/products/category/${category}/?limit=4`);
         setProducts(resp.data);
       } catch (error) {
         console.error("Error fetching products:", error);
@@ -22,7 +22,7 @@ export const CardList = ({ category }) => {
   return (
     <div className="card-list">
       {products.map((el) => (
-        <Card img={el.image} brand={el.title} desc={el.title} price={el.price} totalPrice={el.price}/>
+        <Card img={el.image} brand={'IGURE'} desc={el.title} price={el.price} totalPrice={el.price}/>
       ))}
     </div>
   );
