@@ -1,17 +1,28 @@
+import axios from "axios";
 import { Card } from "../Card/Card";
 import './CardList.css'
+import { useEffect, useState } from "react";
 
 export const CardList = ({ category }) => {
-  const getWeatherForecast = async () => {
-    const resp = await axios(
-      `https://api.openweathermap.org/data/2.5/forecast?q=${"Bishkek"}&appid=6c9081e4fb8cf6d47223ed7f7dfca4c0&units=metric`
-    );
-  }
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    const getProducts = async () => {
+      try {
+        const resp = await axios(`https://fakestoreapi.com/products/category/${category}`);
+        setProducts(resp.data);
+      } catch (error) {
+        console.error("Error fetching products:", error);
+      }
+    };
+
+    getProducts();
+  }, [category]);
 
   return (
     <div className="card-list">
-      {items.map((el) => (
-        <Card img={el.img} brand={el.brand} desc={el.desc} price={el.price} totalPrice={el.totalPrice}/>
+      {products.map((el) => (
+        <Card img={el.image} brand={el.title} desc={el.title} price={el.price} totalPrice={el.price}/>
       ))}
     </div>
   );
