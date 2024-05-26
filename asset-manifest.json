@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-collusion/static/css/main.5771b0af.css",
-    "main.js": "/react-collusion/static/js/main.93d5d7c8.js",
+    "main.css": "/react-collusion/static/css/main.025ddf57.css",
+    "main.js": "/react-collusion/static/js/main.debb888e.js",
     "static/media/hero-img.jpeg": "/react-collusion/static/media/hero-img.8d9d3dc3d09d2cbe32c2.jpeg",
     "static/media/Cart.svg": "/react-collusion/static/media/Cart.423fcdf29d6f8a61df3b2ce811815280.svg",
     "static/media/Heart.svg": "/react-collusion/static/media/Heart.7236559314da25d28df9e637583b4971.svg",
     "index.html": "/react-collusion/index.html",
     "static/media/Search.svg": "/react-collusion/static/media/Search.d8c8a0f0810d82d523dcc623fb4820b6.svg",
-    "main.5771b0af.css.map": "/react-collusion/static/css/main.5771b0af.css.map",
-    "main.93d5d7c8.js.map": "/react-collusion/static/js/main.93d5d7c8.js.map"
+    "main.025ddf57.css.map": "/react-collusion/static/css/main.025ddf57.css.map",
+    "main.debb888e.js.map": "/react-collusion/static/js/main.debb888e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5771b0af.css",
-    "static/js/main.93d5d7c8.js"
+    "static/css/main.025ddf57.css",
+    "static/js/main.debb888e.js"
   ]
 }
